@@ -1,0 +1,26 @@
+.description {
+	color: #7C8B88;
+}
+
+.title {
+	color: white;
+	background-color: #33BEBE;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	padding-top: 25px;
+}
+
+.app {
+	display: flex;
+	max-width: 80%;
+	align: center;
+}
+
+.image {
+	margin-right: 30px;
+	height: 360;
+	width: 360;
+}
+
+*{
+	box-sizing: border-box;
+}
