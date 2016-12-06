@@ -1,0 +1,29 @@
+.moment-img {
+	max-height: 295px;
+}
+
+* {
+	font-family: 'Nothing You Could Do', cursive;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 35px;
+}
+
+hr {
+	background-color: black;
+	height: 2px;
+}

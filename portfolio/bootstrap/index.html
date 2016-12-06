@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Bootstrap Page</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link
+	href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do"
+	rel="stylesheet">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="krypto-pics/supermanlogo.png" alt="Superman Logo"
+					width="150" height="150">
+			</div>
+			<div class="col-md-6 text-center text-upper">
+				<h1>Krypto</h1>
+				<h4>Super Dog</h4>
+			</div>
+		</div>
+
+		<hr></hr>
+
+		<div class="row">
+			<div class="col-md-12">
+				<img class="img-responsive img-rounded" src="krypto-pics/face.jpg"
+					alt="Krypto Face">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Krypto's Best Moments</h2>
+			</div>
+		</div>
+
+		<div class="row" style="max-height: 250px">
+			<div class="col-md-4">
+			<a style="cursor: pointer;">
+				<img class="img-responsive img-rounded center-block" 
+					src="krypto-pics/baby.png" alt="Baby Pic" data-toggle="modal"
+					data-target="#baby-krypto">
+				<h3 class="text-center">Baby Krypto</h3>
+			</a>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded moment-img center-block"
+					src="krypto-pics/hat.jpg" alt="Krypto in a Beenie">
+				<h3 class="text-center">Emo Krypto</h3>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded moment-img center-block"
+					src="krypto-pics/jersey.jpg" alt="Krypto in a Seahawk Jersey">
+				<h3 class="text-center">Go Seahawks!</h3>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="baby-krypto" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="krypto-pics/baby.png"> This
+					was my first project in this class. I learned a lot about HTML and
+					CSS.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
