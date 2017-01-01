@@ -11,7 +11,10 @@ Hint! You'll probably want to start by styling:
 I've left some boilerplate below for you.
 
 */
-
+.logo{
+	width: 15%;
+	height: auto;
+}
 body {
 	width: 800px;
 	margin-left: auto;
@@ -27,10 +30,16 @@ h1 {
 }
 
 img {
-	max-width: 100%
+	max-width: 100%;
+	width: 100%;
 
 }
 
 footer {
 	text-align: center;
+}
+
+.wording {
+	width: auto;
+	background-color: red;
 }
