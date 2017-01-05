@@ -19,6 +19,10 @@
 	color: #d83243; 
 }
 
+.modal-pic {
+	cursor: pointer;
+}
+
 h1 {
 	font-size: 60px;
 }
@@ -35,12 +39,12 @@ h4 {
 	font-size: 35px;
 }
 
-.header-bar{
+.header-bar {
 	border-bottom: 3px solid #f0be34;
 	margin-bottom: 8px;
 }
 
-footer{
+footer {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }

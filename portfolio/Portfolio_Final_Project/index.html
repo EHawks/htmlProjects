@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="container">
-		<header>
+		<header id="header-title">
 			<div class="row header-bar">
 				<div class="col-xs-12 col-sm-6 col-md-6">
 					<img src="krypto-pics/supermanlogo.png" alt="Superman Logo" width="150" height="150">
@@ -24,7 +24,7 @@
 		</header>
 
 
-		<section>
+		<section id="section-main">
 			<div class="row">
 				<div class="col-md-12">
 					<img class="img-responsive img-rounded" src="krypto-pics/face.jpg" alt="Krypto Face">
@@ -39,7 +39,7 @@
 
 			<div class="row">
 				<div class="col-sm-4 col-md-4">
-					<a style="cursor: pointer;">
+					<a class="modal-pic">
 						<img class="img-responsive img-rounded center-block" src="krypto-pics/baby.png"
 							alt="Baby Pic" data-toggle="modal" data-target="#baby-krypto">
 						<h3 class="text-center caption">Baby Krypto</h3>
@@ -47,7 +47,7 @@
 				</div>
 
 				<div class="col-sm-4 col-md-4">
-					<a style="cursor: pointer;">
+					<a class="modal-pic">
 						<img class="img-responsive img-rounded moment-img center-block"
 							src="krypto-pics/jersey.jpg" alt="Krypto in a Seahawks Jersey" data-toggle="modal"
 							data-target="#jersey-krypto">
@@ -56,9 +56,9 @@
 				</div>
 
 				<div class="col-sm-4 col-md-4">
-					<a style="cursor: pointer;">
+					<a class="modal-pic">
 						<img class="img-responsive img-rounded moment-img center-block"
-							src="krypto-pics/hat.jpg" alt="Krypto in a Beenie" data-toggle="modal"
+							src="krypto-pics/hat.jpg" alt="Krypto in a Beanie" data-toggle="modal"
 							data-target="#emo-krypto">
 						<h3 class="text-center caption">Emo Krypto</h3>
 					</a>
@@ -66,7 +66,7 @@
 			</div>
 		</section>
 
-		<footer>
+		<footer id="footer-main">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<a class="zocial twitter icon">Twitter</a>
@@ -83,11 +83,11 @@
 
 	<!-- Modal -->
 	<div class="modal fade" id="baby-krypto" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel" aria-hidden="true">
+		aria-labelledby="modalLabelBaby" aria-hidden="true">
 		<div class="modal-dialog modal-sm">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4 class="modal-title">Baby Krypto</h4>
+					<h4 class="modal-title" id="modalLabelBaby">Baby Krypto</h4>
 				</div>
 				<div class="modal-body">
 					<img class="img-responsive modal-image text-center" src="krypto-pics/baby.png">
@@ -101,11 +101,11 @@
 	</div>
 
 	<div class="modal fade" id="jersey-krypto" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel" aria-hidden="true">
+		aria-labelledby="modalLabelSeahawk" aria-hidden="true">
 		<div class="modal-dialog modal-sm">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4 class="modal-title">Seahawk Fan</h4>
+					<h4 class="modal-title" id="modalLabelSeahawk">Seahawk Fan</h4>
 				</div>
 				<div class="modal-body">
 					<img class="img-responsive modal-image text-center" src="krypto-pics/jersey.jpg">
@@ -119,11 +119,11 @@
 	</div>
 
 	<div class="modal fade" id="emo-krypto" tabindex="-1" role="dialog"
-		aria-labelledby="myModalLabel" aria-hidden="true">
+		aria-labelledby="modalLabelApple" aria-hidden="true">
 		<div class="modal-dialog modal-sm">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4 class="modal-title">Apple Fan??</h4>
+					<h4 class="modal-title" id="modalLabelApple">Apple Fan??</h4>
 				</div>
 				<div class="modal-body">
 					<img class="img-responsive modal-image text-center" src="krypto-pics/hat.jpg">
