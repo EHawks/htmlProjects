@@ -1,0 +1,46 @@
+.moment-img {
+	max-height: 295px;
+}
+
+* {
+	font-family: "Exo", sans-serif;
+	font-weight: bold;
+}
+
+.title {
+	color: #0e4569;
+}
+
+.sub-title {
+	color: #d83243;
+}
+
+.caption {
+	color: #d83243; 
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 35px;
+}
+
+.header-bar{
+	border-bottom: 3px solid #f0be34;
+	margin-bottom: 8px;
+}
+
+footer{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
